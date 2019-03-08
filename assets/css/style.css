@@ -1,0 +1,170 @@
+body{
+    background-color: gray;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0px !important;
+    height: 1000px;
+    
+}
+.page{
+     width: 900px;
+     align-content: center;
+     margin-left: 30px;
+ }
+
+header{
+     width: 100%;
+     height: 55px;
+     background-color: white;
+     position: fixed;
+     z-index: 2;
+
+ }
+
+ h1{
+     padding: 5px;
+ }
+
+.buttons{
+    width: 15%;
+    height: 28px;
+    position: relative;
+    bottom: -20px;
+    left: 20%;
+    color: wheat;
+    text-align: center;
+    background-color: red;
+    text-decoration: none;
+    padding-top: 8px;
+    text-shadow: 3px;
+
+    font-size: 28px;
+    font-weight: bolder;
+
+
+}
+
+.buttons2{
+    width: 10%;
+    height: 20px;
+    color: black;
+    text-align: right;
+    background-color: blue;
+    position: relative;
+    right: 20%;
+    float: right;
+    border-right-color: black;
+    border-right-style: solid;
+    border-right-width: 2px;
+    text-decoration: none;
+    vertical-align: middle;
+
+}
+
+.buttons2:hover {
+    color:white;
+}
+
+.button-contact{
+    float: left;
+    font-size: 120%;
+    left: 0% !important;
+    height: 30px;
+    width: 15% !important;
+    text-align: center !important;
+    background-color: blue;
+    color: wheat;
+    
+}
+
+.focus {
+    font-weight: bolder !important;
+    font-size: 120% !important;
+    color: wheat !important;
+}
+
+.content{
+    background-color: white;
+    position: relative;
+    left: 20%;
+    float: left;
+    width: 55%;
+    margin: 10% 20% 15% 0;
+    z-index: 1;
+    padding: 30px;
+}
+
+.image{
+    width: 120px;
+    height: 180px;
+    float: left;
+    border-right: 2PX;
+    border-bottom: 2PX;
+    border-right-style: dashed;
+    border-bottom-style: dashed;
+    margin: 0 10px 10px 0;
+}
+
+.division{
+    height: 5px;
+    margin: 20px;
+    background-color: darkblue;
+}
+.division1{
+    
+    border-bottom-style: dashed;
+    border-bottom-color:darkblue;
+    border-bottom-width: 5px;
+}
+
+.text{
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+    font-size: 20px;
+    text-align: justify;
+    line-height: 1.3;
+    text-indent: 20px;
+    
+}
+
+.textfirst::first-letter{
+    font-size: 140%;
+    font-weight: bolder;
+    color: red;
+}
+
+footer{
+    height: 20px;
+    width: 100%;
+    background-color: darkgreen;
+    border: 15px;
+    border-color: darkgray;
+    text-align: center;
+    font-size: 10px;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    z-index: 2;
+}
+
+/* Css for the gallery */
+
+div.gallery {
+    margin: 20px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 27%;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+

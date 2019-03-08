@@ -1,0 +1,130 @@
+
+
+@media screen and (max-width:980px) {
+    body{
+        background-color: rgb(83, 83, 83);
+
+    }
+    .page{
+        width: 900px;
+        margin-left: 20px;
+    }
+    header {
+        height: 40px;
+    }
+    .buttons{
+        height: 23px;
+        bottom: -7px;
+        left: 59px;
+        padding-top: 10px;
+        font-size: 17px;
+    }
+    .buttons2{
+      height: 20px;
+      bottom: 16px;
+      right: 88px;
+      padding-top: 3px;
+      font-size: 14px;
+  }
+  .focus{
+      font-size: 110% !important;
+  }
+  .content{
+      left: 59px;
+      margin: 50px 59px 20px 59px;
+      width: 76%;
+      position: initial;
+  }
+  .division1{
+      border-bottom-width: 3px;
+      border-bottom-style: solid;
+  }
+  div.gallery{
+      width: 43%;
+  }
+}
+@media screen and (max-width:768px) {
+    body{
+        background-color: rgb(111, 111, 111);
+
+    }
+    .page{
+        width: 700px;
+        margin-left: 20px;
+    }
+    header {
+        height: 30px;
+    }
+    .buttons{
+        height: 20px;
+        bottom: -7px;
+        left: 59px;
+        padding-top: 3px;
+        font-size: 17px;
+    }
+    .buttons2{
+      height: 15px;
+      bottom: 11px;
+      right: 59px;
+      padding-top: 3px;
+      font-size: 14px;
+  }
+  .focus{
+      font-size: 98% !important;
+  }
+  .content{
+      left: 59px;
+      margin: 50px 59px 20px 59px;
+      width: 76%;
+      position: initial;
+  }
+  .division1{
+      border-bottom-width: 2px;
+  }
+  div.gallery{
+      width: 93%;
+  }
+}
+@media screen and (max-width:640px) {
+    body{
+        background-color: rgb(111, 111, 111);
+
+    }
+    .page{
+        width: 600px;
+        margin-left: 20px;
+    }
+    header {
+        height: 30px;
+        position: static;
+    }
+    .buttons{
+        height: 20px;
+        bottom: -7px;
+        left: 59px;
+        padding-top: 3px;
+        font-size: 17px;
+    }
+    .buttons2{
+      height: 15px;
+      bottom: 11px;
+      right: 59px;
+      padding-top: 3px;
+      font-size: 14px;
+  }
+  .focus{
+      font-size: 98% !important;
+  }
+  .content{
+      left: 59px;
+      margin: 50px 59px 20px 59px;
+      width: 76%;
+      position: initial;
+  }
+  .division1{
+      border-bottom-width: 2px;
+  }
+  div.gallery{
+      width: 93%;
+  }
+}
