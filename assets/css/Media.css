@@ -91,8 +91,8 @@
 
     }
     .page{
-        width: 600px;
-        margin-left: 20px;
+        width: 400px;
+        margin-left: 15px;
     }
     header {
         height: 30px;
@@ -101,23 +101,28 @@
     .buttons{
         height: 20px;
         bottom: -7px;
-        left: 59px;
+        left: 20px;
         padding-top: 3px;
-        font-size: 17px;
+        font-size: 19px;
+        width: 20%;
     }
     .buttons2{
       height: 15px;
       bottom: 11px;
-      right: 59px;
+      right: 33px;
       padding-top: 3px;
       font-size: 14px;
+      width: 17%;
+  }
+  .button-contact{
+      width: 27% !important;
   }
   .focus{
       font-size: 98% !important;
   }
   .content{
       left: 59px;
-      margin: 50px 59px 20px 59px;
+      margin: 15px 5px 40px 20px;
       width: 76%;
       position: initial;
   }
@@ -126,5 +131,8 @@
   }
   div.gallery{
       width: 93%;
+  }
+  .input {
+      size: 200px;
   }
 }
